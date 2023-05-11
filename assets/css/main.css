@@ -3831,6 +3831,10 @@ body.is-preload #header.alt .logo {
 
 }
 
+.main.image {
+	float: right
+}
+
 /* Footer */
 
 #footer {
