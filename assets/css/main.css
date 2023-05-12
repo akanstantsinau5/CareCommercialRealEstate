@@ -3352,12 +3352,12 @@ body.is-preload #header.alt .logo {
 	-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 	transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 	background-color: #ffffff;
-	color: #636363;
+	color: #0f0e0e;
 	position: absolute;
 	width: 64em;
 	max-width: calc(100% - 4em);
 	padding: 1.5em;
-	background-color: #f7f7f7;
+	background-color: #ffffff;
 	border-top-left-radius: 0.25em;
 	border-top-right-radius: 0.25em;
 	cursor: default;
@@ -3371,12 +3371,12 @@ body.is-preload #header.alt .logo {
 }
 
 #nav a:hover {
-	color: #636363;
+	color: #418FDE;
 }
 
 #nav strong,
 #nav b {
-	color: #636363;
+	color: #418FDE;
 }
 
 #nav h1,
@@ -3465,11 +3465,11 @@ body.is-preload #header.alt .logo {
 
 @media screen and (max-width: 736px) {
 
-
 	#nav {
 		position: absolute;
-		max-width: 92%;
+		max-width: 85%;
 		padding: .2em;
+		vertical-align: middle;
 
 	}
 
