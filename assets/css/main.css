@@ -3356,7 +3356,7 @@ body.is-preload #header.alt .logo {
 	position: absolute;
 	width: 64em;
 	max-width: calc(100% - 4em);
-	padding: 1em;
+	padding: 1.5em;
 	background-color: #f7f7f7;
 	border-top-left-radius: 0.25em;
 	border-top-right-radius: 0.25em;
@@ -3448,7 +3448,7 @@ body.is-preload #header.alt .logo {
 #nav.alt {
 	position: fixed;
 	top: 0;
-	padding: 0.5em .5em;
+	padding: .5em .5em;
 	background-color: rgba(247, 247, 247, 0.95);
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
@@ -3465,8 +3465,12 @@ body.is-preload #header.alt .logo {
 
 @media screen and (max-width: 736px) {
 
+
 	#nav {
-		display: none;
+		position: absolute;
+		max-width: 92%;
+		padding: .2em;
+
 	}
 
 	#nav+#main {
