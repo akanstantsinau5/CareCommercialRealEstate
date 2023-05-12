@@ -3355,7 +3355,7 @@ body.is-preload #header.alt .logo {
 	color: #0f0e0e;
 	position: absolute;
 	width: 64em;
-	max-width: calc(100% - 4em);
+	max-width: calc(100% - 2em);
 	padding: 1.5em;
 	background-color: #ffffff;
 	border-top-left-radius: 0.25em;
@@ -3466,10 +3466,7 @@ body.is-preload #header.alt .logo {
 @media screen and (max-width: 736px) {
 
 	#nav {
-		position: absolute;
-		max-width: 85%;
 		padding: .2em;
-		vertical-align: middle;
 
 	}
 
